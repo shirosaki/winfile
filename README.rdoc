@@ -1,0 +1,11 @@
+= What is WinFile?
+
+Module WinFile provides Windows specific file methods for ruby.
+
+== <tt>WinFile#long_path</tt>
+* converts short filename (8.3 filename) to long filename
+* converts only basename with cygwin
+
+== Requirement
+* require +dl+ (call Windows API)
+* works with mswin/mingw/cygwin MRI 1.8.7 or later
